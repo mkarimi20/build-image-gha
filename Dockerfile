@@ -5,6 +5,10 @@ RUN apk add unzip zip
 
 RUN wget https://releases.hashicorp.com/terraform/1.8.0/terraform_1.8.0_linux_arm64.zip
 
+RUN unzip terraform_1.8.0_linux_arm64.zip
+
+
+
 
 
 EXPOSE 80
